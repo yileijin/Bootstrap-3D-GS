@@ -69,14 +69,14 @@ data/
 
 ### Stable Diffusion CKPT
 
-The stable diffusion mode we use is [SD2.1v](https://huggingface.co/stabilityai/stable-diffusion-2-1)/[x4-upscaling](https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler)
+The stable diffusion model we use can be downloaded in [SD2.1v](https://huggingface.co/stabilityai/stable-diffusion-2-1)/[x4-upscaling](https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler)
 
 ### Public Data
 
 The MipNeRF360 scenes are provided by the paper author [here](https://jonbarron.info/mipnerf360/). And we test on scenes ```bicycle, bonsai, counter, garden, kitchen, room, stump```. The SfM data sets for Tanks&Temples and Deep Blending are hosted by 3D-Gaussian-Splatting [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/input/tandt_db.zip). Download and uncompress them into the ```data/``` folder.
 
 ## Training
-Our training process is the same as the original [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting), but regarding the Diffusion Model part, we strongly recommend that you make modifications yourself in the configuration ```./arguments ```. Some important configurations are detailed in our paper. For example:
+Our training process is the same as the original [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting), but regarding the Diffusion Model part, we strongly recommend that you make modifications yourself in the configuration ```./arguments ```. Some important configurations are detailed in our paper. For example, to train a scene:
 
 ```
 python train.py -s <path to COLMAP or NeRF Synthetic dataset>
