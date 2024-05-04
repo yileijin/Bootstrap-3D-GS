@@ -1,9 +1,9 @@
 # Bootstrap 3D Reconstructed Scenes from 3D Gaussian Splatting
 
-[Yifei Gao](https://github.com/yileijin), [Jie Ou](https://github.com/oujieww) <br />
+Project Contribution: [Yifei Gao](https://github.com/yileijin), [Jie Ou](https://github.com/oujieww) <br />
 
 
-[[`arxiv`](https://arxiv.org/pdf/2404.18669)]
+Our Paper: [[`arxiv`](https://arxiv.org/pdf/2404.18669)]
 
 
 ## Overview
