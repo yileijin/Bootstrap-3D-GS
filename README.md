@@ -1,9 +1,10 @@
-# Bootstrap 3D Reconstructed Scenes from 3D Gaussian Splatting
+# Bootstrap 3D-GS
 
-Project Contribution: [Yifei Gao](https://github.com/yileijin), [Jie Ou](https://github.com/oujieww) <br />
+<!-- Project Contribution: [Yifei Gao](https://github.com/yileijin), [Jie Ou](https://github.com/oujieww) <br />
 
 
-Our Paper: [[`arxiv`](https://arxiv.org/pdf/2404.18669)]
+Our Paper: [[`arxiv`](https://arxiv.org/pdf/2404.18669)] -->
+
 
 
 ## Overview
@@ -92,9 +93,7 @@ python render.py -m <path to trained model> # Generate renderings
 python metrics.py -m <path to trained model> # Compute error metrics on renderings
 ```
 
-
-
-## Contact
+<!-- ## Contact
 
 - Yifei Gao: yilei.jin123@gmail.com
 
@@ -111,7 +110,9 @@ If you find our work helpful, please consider citing:
       archivePrefix={arXiv},
       primaryClass={cs.GR}
 }
-```
+``` -->
+
+
 
 ## LICENSE
 
