@@ -81,7 +81,7 @@ class SceneExpensionParams(ParamGroup):
         self.scale_blur_img = False
         self.upscale_blur_end_iter = 16000
         self.expension_end_iter = 29000
-        self.expension_iter_list = [21000, 24000, 27000, 29000]
+        self.expension_iter_list = [6000, 9000, 12000, 15000, 18000, 21000, 24000, 27000, 29000]
         self.expension_interval = 1000
         self.use_random_variant = True
         self.random_noise_scales = [0.1, 0.2]
