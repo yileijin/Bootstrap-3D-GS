@@ -161,7 +161,7 @@ def readColmapSceneInfo(path, images, eval, lod=0, llffhold=8, train_llffhold=Fa
                 print(f'test_cam_infos: {len(test_cam_infos)}')
                 print(f'train_cam_infos: {len(train_cam_infos)}')
         else:
-            train_cam_infos = [c for idx, c in enumerate(cam_infos) if idx % llffhold != 0]# or idx % (4*llffhold) == 0
+            train_cam_infos = [c for idx, c in enumerate(cam_infos) if idx % llffhold != 0]
             test_cam_infos = [c for idx, c in enumerate(cam_infos) if idx % llffhold == 0]
     else:
         train_cam_infos = cam_infos
